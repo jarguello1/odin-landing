@@ -4,12 +4,15 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
 }
 
 .header {
     background-color: #1f2937;
     display: flex;
-    
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
 }
 
 .logo {
@@ -20,6 +23,8 @@ body {
 .title-block {
     background-color: #1f2937;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .main-header {
@@ -37,20 +42,22 @@ body {
     display: flex;
 }
 
-.random-information {
-
-}
-
 .cards {
-
+    width: 200px;
 }
 
 .quote-block {
     background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
     display: flex;
 }
 
 .signup-block {
+    color: #f9faf8;
+    background-color: #3882f6;
     display: flex;
 }
 
@@ -67,11 +74,16 @@ body {
 }
 
 .buttons {
+    color: #f9faf8;
     background-color: #3882f6;
 }
 
 ul {
     list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
 }
 
 a {
