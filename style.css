@@ -88,6 +88,9 @@ body {
     background-color: #1f2937;
     display: flex;
     color: #f9faf8;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
 }
 
 .buttons {
