@@ -3,6 +3,7 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .header {
@@ -21,8 +22,27 @@ body {
     display: flex;
 }
 
+.main-header {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 .content-block {
     display: flex;
+}
+
+.random-information {
+
+}
+
+.cards {
+
 }
 
 .quote-block {
@@ -34,9 +54,20 @@ body {
     display: flex;
 }
 
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
 .footer {
     background-color: #1f2937;
     display: flex;
+    color: #f9faf8;
+}
+
+.buttons {
+    background-color: #3882f6;
 }
 
 ul {
