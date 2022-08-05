@@ -12,7 +12,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 10px 0px;
+    padding: 10px 200px;
 }
 
 .logo {
@@ -26,6 +26,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 140px;
+    padding: 0px 200px;
 }
 
 .title {
