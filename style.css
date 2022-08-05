@@ -54,6 +54,7 @@ body {
 
 .content-block {
     display: flex;
+    padding: 0px 200px;
 }
 
 .cards {
@@ -62,6 +63,7 @@ body {
 
 .quote-block {
     background-color: #e5e7eb;
+    padding: 0px 200px;
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
@@ -72,6 +74,7 @@ body {
 .signup-block {
     color: #f9faf8;
     background-color: #3882f6;
+    padding: 0px 200px;
     display: flex;
 }
 
