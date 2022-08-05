@@ -2,13 +2,22 @@
 
 body {
     display: flex;
+    flex-direction: column;
 }
 
 .header {
+    background-color: #1f2937;
     display: flex;
+    
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 .title-block {
+    background-color: #1f2937;
     display: flex;
 }
 
@@ -17,6 +26,7 @@ body {
 }
 
 .quote-block {
+    background-color: #e5e7eb;
     display: flex;
 }
 
@@ -25,6 +35,7 @@ body {
 }
 
 .footer {
+    background-color: #1f2937;
     display: flex;
 }
 
