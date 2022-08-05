@@ -1,1 +1,39 @@
 /* style.css */
+
+body {
+    display: flex;
+}
+
+.header {
+    display: flex;
+}
+
+.title-block {
+    display: flex;
+}
+
+.content-block {
+    display: flex;
+}
+
+.quote-block {
+    display: flex;
+}
+
+.signup-block {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
