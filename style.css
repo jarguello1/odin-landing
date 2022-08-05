@@ -11,7 +11,7 @@ body {
     background-color: #1f2937;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 10px 0px;
 }
 
@@ -25,22 +25,30 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 140px;
 }
 
 .title {
     width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 50px 0px;
 }
 
 .main-header {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+    margin: 0;
+    padding: 0;
 }
 
 .secondary-text {
     font-size: 18px;
     color: #e5e7eb;
+    margin: 0;
+    padding: 0;
 }
 
 .content-block {
@@ -80,7 +88,10 @@ body {
 
 .buttons {
     color: #f9faf8;
-    background-color: #3882f6;
+    border-radius: 5px;
+    background: #3882f6;
+    width: fit-content;
+    padding: 5px 30px;
 }
 
 ul {
