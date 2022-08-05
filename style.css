@@ -86,7 +86,7 @@ body {
 
 .quote-block {
     background-color: #e5e7eb;
-    padding: 100px 200px;
+    padding: 120px 200px;
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
@@ -95,9 +95,15 @@ body {
     flex-direction: column;
 }
 
+.quote {
+    margin: 0px;
+}
+
 .quote-block .author {
     font-weight: bold;
     font-size: 24px;
+    margin: 0px;
+    align-self: flex-end;
 }
 
 .signup-block {
